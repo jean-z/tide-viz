@@ -1,0 +1,23 @@
+{
+  "name": "tide-viz",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "潮汐之舞 —— 全球潮汐可视化：四大分潮合成的潮高场与潮流流动（React 19 + Vite 7 + 2D Canvas）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tools/test-tide.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.20"
+  }
+}
